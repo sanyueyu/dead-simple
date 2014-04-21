@@ -1,6 +1,6 @@
 # Brunch app
 
-This is HTML5 application, built with [Brunch](http://brunch.io).
+This is HTML5 application, built with [Brunch](http://brunch.io).I make it have jquery and some html/script
 
 ## Getting started
 * Install (if you don't have them):
