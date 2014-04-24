@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "public/app.js",
   "dependencies": {
-      "jquery": "*"
+      "jquery": "*",
+      "bootstrap": "*"
   },
   "overrides": {}
 }

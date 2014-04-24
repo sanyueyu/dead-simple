@@ -3,9 +3,10 @@ exports.config =
   files:
     javascripts:
       joinTo:
-        'app.js': /^app/
-        'vendor.js': /^(?!app)/
+        'js/app.js': /^app/
+        'js/vendor.js': /^(bower_components|vendor)/
     stylesheets:
-      joinTo: 'app.css'
+      joinTo:
+        'css/app.css': /^(app|vendor|bower_components)/
     templates:
       joinTo: 'app.js'
