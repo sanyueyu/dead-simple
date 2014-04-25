@@ -8,9 +8,9 @@ $link-hover-color: red
 body
   font-size: $font-size-base
 
-p
-  color: $color
-  font-size: $font-size-base
+//p
+//  color: $color
+//  font-size: $font-size-base
 
 a
   color: $link-color
@@ -19,10 +19,14 @@ a:hover
   text-decoration: none
   color: $link-hover-color
 
-.left
+div
   height: 20px
-  background: green
-  
-.right
-  height: 20px
+
+.row div:nth-child(1)
   background: blue
+.row div:nth-child(2)
+  background: green
+.row div:nth-child(3)
+  background: #ffff00
+.row div:nth-child(4)
+  background: red
