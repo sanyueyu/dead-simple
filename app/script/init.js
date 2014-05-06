@@ -3,5 +3,5 @@
  * Created by george on 14-4-21.
  */
 $(function() {
-    $("p").text("hi little boy!");
+    $(".title").html('hi little boy! <a href=#>come here</a>');
 });
