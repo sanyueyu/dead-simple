@@ -11,11 +11,3 @@ exports.config =
         'css/app.css': /^(app|vendor|bower_components)/
     templates:
       joinTo: 'app.js'
-  plugins:
-    uglify:
-      output: 'js/app.js'
-      consolidate: 'js/app.min.js'
-      mangle: false
-      compress:
-        global_defs:
-          DEBUG: false
